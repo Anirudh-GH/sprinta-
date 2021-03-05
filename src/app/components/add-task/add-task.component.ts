@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
+
 import { FormBuilder, FormGroup, FormControl, Validators} from '@angular/forms';
 
 @Component({
@@ -9,10 +10,12 @@ import { FormBuilder, FormGroup, FormControl, Validators} from '@angular/forms';
 })
 export class AddTaskComponent implements OnInit {
   sessionForm!: FormGroup;
-  constructor() {  }
+  constructor(public dialog:MatDialog) {  }
 
 
   ngOnInit(): void {
+
   }
+  
 
 }

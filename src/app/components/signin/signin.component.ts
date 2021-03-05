@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
+import {Router} from '@angular/router';
 import { FormBuilder, FormGroup, FormControl, Validators} from '@angular/forms';
-import{AddTaskComponent} from '../add-task/add-task.component'
+
 //import { ConfirmedValidator } from './confirmed.validator';
     
 @Component({
@@ -14,15 +15,16 @@ export class SigninComponent implements OnInit {
   form: FormGroup = new FormGroup({});
   
 
-  constructor( private dialog:MatDialog) {}
+  constructor( private dialog:MatDialog, private router: Router ) {}
   
 
   ngOnInit(): void {
   }
   addTask(){
-    this.dialog.open(AddTaskComponent, {
-      width:'300px'
-    });
+     this.router.navigateByUrl('/home');
+    // this.dialog.open(AddTaskComponent, {
+    //   width:'300px'
+    // });
   }
 
   }
