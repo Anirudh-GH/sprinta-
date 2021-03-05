@@ -18,7 +18,7 @@ import {MatDialogModule} from '@angular/material/dialog';
 
 
 
-const google_oauth_client_id:string="567546319268-hqq82o1e3tit9n10q5pseimfki18eutm.apps.googleusercontent.com"
+const google_oauth_client_id:string = '357066495411-n1bn9hc50ntk7715th6vntqabk08j65d.apps.googleusercontent.com';
 
 const routes: Routes = [
   {

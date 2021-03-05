@@ -15,7 +15,7 @@ export class SigninComponent implements OnInit {
   form: FormGroup = new FormGroup({});
   
 
-  constructor( private dialog:MatDialog, private router: Router ) {}
+  constructor( private router: Router ) {}
   
 
   ngOnInit(): void {

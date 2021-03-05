@@ -23,6 +23,9 @@
     "@angular/platform-browser-dynamic": "~10.0.6",
     "@angular/router": "~10.0.6",
     "@types/gapi": "0.0.39",
+    "@types/gapi.auth2": "0.0.53",
+    "angular4-social-login": "^1.1.1",
+    "angularx-social-login": "^3.5.4",
     "rxjs": "~6.5.5",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.3"
